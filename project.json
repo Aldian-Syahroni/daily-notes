@@ -1,0 +1,20 @@
+{
+  "overview": "A daily notes app for capturing everyday activities. Create, edit, search, and organize personal notes by date — all stored securely on-chain.",
+  "features": [
+    "Create notes with title and rich text content",
+    "View notes grouped by date (Today, Yesterday, This Week)",
+    "Search notes by title or content",
+    "Edit and delete notes with confirmation",
+    "Auto-save edits to the backend",
+    "Timestamps displayed relative to now"
+  ],
+  "category": "productivity",
+  "tags": [
+    "notes",
+    "daily",
+    "productivity",
+    "journaling",
+    "activities"
+  ],
+  "last_updated": "2026-04-19T11:49:44.062Z"
+}

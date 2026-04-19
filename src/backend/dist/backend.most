@@ -1,0 +1,21 @@
+// Version: 1.0.0
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type NoteId__94891047 = Nat;
+type Note__1063160515 =
+  {
+    content : Text;
+    createdAt : Int;
+    id : NoteId__94891047;
+    title : Text;
+    updatedAt : Int
+  };
+actor {
+  stable counter : {var val : Nat};
+  stable notes :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Note__1063160515]];
+      var elementIndex : Nat__490723111
+    }
+};
